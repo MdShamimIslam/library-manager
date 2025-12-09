@@ -1,0 +1,185 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/index.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/* Container */
+.lm-container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.lm-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+.lm-container .lm-btn-add {
+  background-color: #057963;
+  color: #fff;
+  margin-bottom: 15px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: 0.2s all ease;
+  outline: none;
+}
+.lm-container .lm-btn-add:hover {
+  background-color: #095e4e;
+}
+.lm-container {
+  /* Table */
+}
+.lm-container .lm-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.lm-container .lm-table tr {
+  text-align: center;
+}
+.lm-container .lm-table th, .lm-container .lm-table td {
+  padding: 12px 15px;
+}
+.lm-container .lm-table th {
+  background: #2c3e50;
+  color: #fff;
+  font-weight: normal;
+}
+.lm-container .lm-table tr:nth-child(even) {
+  background: #f7f7f7;
+}
+.lm-container .lm-table tr:hover {
+  background: #e8f0fe;
+}
+.lm-container .lm-table .lm-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 0.9rem;
+  transition: 0.2s all ease;
+}
+.lm-container .lm-table .lm-btn.lm-btn-edit {
+  background-color: #3498db;
+  color: #fff;
+}
+.lm-container .lm-table .lm-btn.lm-btn-edit:hover {
+  background-color: #2980b9;
+}
+.lm-container .lm-table .lm-btn.lm-btn-delete {
+  background-color: #e74c3c;
+  color: #fff;
+}
+.lm-container .lm-table .lm-btn.lm-btn-delete:hover {
+  background-color: #c0392b;
+}
+.lm-container {
+  /* Form */
+}
+.lm-container .lm-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.lm-container .lm-form .lm-form-group {
+  display: flex;
+  gap: 12px;
+}
+.lm-container .lm-form input,
+.lm-container .lm-form select,
+.lm-container .lm-form textarea {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: 0.2s all ease;
+}
+.lm-container .lm-form input:focus,
+.lm-container .lm-form select:focus,
+.lm-container .lm-form textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+.lm-container .lm-form .lm-form-actions {
+  display: flex;
+  gap: 10px;
+}
+.lm-container .lm-form .lm-form-actions .lm-btn-submit {
+  background-color: #0d6097;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: 0.2s all ease;
+}
+.lm-container .lm-form .lm-form-actions .lm-btn-submit:hover {
+  background-color: #05416a;
+}
+.lm-container .lm-form .lm-form-actions .lm-btn-cancel {
+  background-color: #363e3b;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: 0.2s all ease;
+}
+.lm-container .lm-form .lm-form-actions .lm-btn-cancel:hover {
+  background-color: #234c4f;
+}
+.lm-container {
+  /* Confirm Delete */
+}
+.lm-container .lm-confirm {
+  background: #fff3f3;
+  border: 1px solid #e74c3c;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lm-container .lm-confirm p {
+  margin: 0;
+  font-weight: bold;
+  color: #e74c3c;
+}
+.lm-container .lm-confirm .lm-btn.lm-btn-confirm {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.2s all ease;
+  margin-left: 5px;
+}
+.lm-container .lm-confirm .lm-btn.lm-btn-confirm:hover {
+  background-color: #c0392b;
+}
+.lm-container .lm-confirm .lm-btn.lm-btn-cancel {
+  background-color: #697379;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.2s all ease;
+}
+.lm-container .lm-confirm .lm-btn.lm-btn-cancel:hover {
+  background-color: #657576;
+}
