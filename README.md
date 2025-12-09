@@ -24,7 +24,7 @@ Manage books in a custom database table via a secure REST API and a React-powere
 Prerequisites: Node.js and npm installed.
 
 - From the plugin root: `npm install`
-- Build to `build/`: `npm run start`
+- Build to `build/`: `npm run build`
   - This uses `@wordpress/scripts` to bundle `src/index.js` into the `build/` directory.
   - Ensure `build/index.js`, `build/index.css`, and `build/index.asset.php` exist after bundling.
 
